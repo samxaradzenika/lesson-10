@@ -31,6 +31,10 @@
 .last {
     margin-right: 0px;
 }
+.burgerdiv {
+    
+}
+
 .bg h2 {
     width: 500px;
     height: 128px;
@@ -205,12 +209,10 @@
     width: 30%;
     max-width: 444px;
     height: 527px;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background-color: green; */
 }
 .sss {
     width: 100%;
@@ -251,7 +253,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 12px;
 
+}
+.pricediv{
+    width: 68px;
+    height: 23px;
+    display: block;
 }
 .minimenudiv {
     width: 100%;
@@ -265,8 +273,8 @@
     color: #A80E0E;
     font-size: 22px;
     position: absolute;
-    right: 165px;
-    bottom: 36px;
+    right: 30px;
+    bottom: 20px;
 }
 .orderdiv2 {
     width: 255px;
@@ -295,7 +303,7 @@
     width: 75%;
     max-width: 1450px;
     height: 316px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     display: flex;
     justify-content: space-between;
 }
