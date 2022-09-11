@@ -32,7 +32,7 @@
     margin-right: 0px;
 }
 .burgerdiv {
-    
+    display: none;
 }
 
 .bg h2 {
@@ -291,6 +291,7 @@
     font-size: 18px;
 }
 .ftr {
+    width: 100%;
     max-width: 1920px;
     height: 654px;
     background-color: #FFAA00;
@@ -339,4 +340,7 @@
     font-weight: 300;
     color: #686868;
     
+}
+.cl {
+    background-color: #FFAA00;
 }
